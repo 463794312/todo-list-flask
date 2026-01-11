@@ -47,7 +47,7 @@ A full-stack, responsive To-Do List application built with Flask (Python) for ba
 
    ```
    
-3: Run the Application
+3. Run the Application
    ```bash
    # For Windows
    python app.py
@@ -57,10 +57,11 @@ A full-stack, responsive To-Do List application built with Flask (Python) for ba
 
    ```
 
-4: Access the App
+4. Access the App
    Open your web browser and visit: http://127.0.0.1:5000
 
 ### Project Structure
+```bash
 todo-list-flask/
 ├── app.py              # Core backend logic (Flask routes, DB operations)
 ├── todo.db             # SQLite database file (auto-generated)
@@ -71,3 +72,5 @@ todo-list-flask/
 │       └── script.js   # Frontend interactivity (API calls, UI updates)
 └── templates/
     └── index.html      # Main HTML template (UI structure)
+
+```
