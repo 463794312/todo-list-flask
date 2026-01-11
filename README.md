@@ -38,5 +38,36 @@ A full-stack, responsive To-Do List application built with Flask (Python) for ba
    ```
 
 2. Install dependencies
-   pip install flask # Windows
-   # pip3 install flask # macOS/Linux
+   ```bash
+   # For Windows
+   pip install flask
+
+   # For macOS/Linux
+   pip3 install flask
+
+   ```
+   
+3: Run the Application
+   ```bash
+   # For Windows
+   python app.py
+
+   # For macOS/Linux
+   python3 app.py
+
+   ```
+
+4: Access the App
+   Open your web browser and visit: http://127.0.0.1:5000
+
+### Project Structure
+todo-list-flask/
+├── app.py              # Core backend logic (Flask routes, DB operations)
+├── todo.db             # SQLite database file (auto-generated)
+├── static/             # Static assets (CSS/JS)
+│   ├── css/
+│   │   └── style.css   # Frontend styling (responsive design)
+│   └── js/
+│       └── script.js   # Frontend interactivity (API calls, UI updates)
+└── templates/
+    └── index.html      # Main HTML template (UI structure)
