@@ -62,6 +62,8 @@ A full-stack, responsive To-Do List application built with Flask (Python) for ba
 4. Access the App
    Open your web browser and visit: http://127.0.0.1:5000
 
+   To run this on your phone, you and your computer need to be connected to the same Wi-Fi network. Then, access http://{your computer's local network IP}:5000
+
 ## Screenshots
 
 **Desktop View**
