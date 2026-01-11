@@ -74,3 +74,11 @@ todo-list-flask/
     └── index.html      # Main HTML template (UI structure)
 
 ```
+
+### Key Technical Points
+- Used Flask to create RESTful API endpoints for CRUD operations
+- Implemented SQLite database with connection management and table initialization
+- Added responsive CSS with media queries for mobile compatibility
+- Implemented client-side form validation and error handling
+- Added XSS protection by escaping user input
+- Used Fetch API for asynchronous communication between frontend and backend
